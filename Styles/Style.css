@@ -4,6 +4,42 @@ body {
     font-family: 'Gentium Book Plus', serif;
     background-color: aliceblue;
 }
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    
+}
+.logo {
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 500px;
+}
+#text {
+    margin-left: 20px;
+    color: bisque;
+}
+span img {
+    width: 50px;
+   
+    
+}
+nav ul {
+   display: flex;
+}
+nav li {
+    list-style: none;
+    margin: 20px;
+}
+nav li:hover {
+    background-color: bisque;
+}
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
 main {
     display: flex;
     flex-direction: column;
